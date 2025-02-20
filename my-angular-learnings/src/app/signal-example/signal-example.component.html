@@ -1,0 +1,27 @@
+<h2>What are signals?</h2>
+<pre>
+    A signal is a wrapper around a value that notifies interested consumers when that value changes. Signals can contain any value, from primitives to complex data structures.
+    
+    You read a signal's value by calling its getter function, which allows Angular to track where the signal is used.
+</pre>
+<section>
+  <h5>Demo of Writable Signals</h5>
+  <div class="count-label-container">
+    <label class="count-label">
+      {{ count() }}
+    </label>
+  </div>
+  <div class="example-button">
+    <button mat-raised-button (click)="increaseCount()">Increase</button>
+  </div>
+
+  <h5>Demo of Computed Signals</h5>
+  <div class="count-label-container">
+    <label class="count-label">
+      {{ doubleCount() }}
+    </label>
+  </div>
+  <div class="example-button">
+    <button mat-raised-button>Double Increase</button>
+  </div>
+</section>

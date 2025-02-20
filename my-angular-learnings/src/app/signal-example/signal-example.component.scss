@@ -1,0 +1,30 @@
+section {
+    display: table;
+}
+
+.example-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+    min-width: 120px;
+}
+
+.example-button-row {
+    display: table-cell;
+    max-width: 600px;
+}
+
+.count-label-container {
+    margin: 1em;
+    background: #fff;
+    height: 3em;
+    width: 3em;
+    color: #333;
+    font-weight: 500;
+    border-radius: 50%;
+}
+
+.count-label {
+    float: left;
+    margin: 1em 1.2em;
+}
